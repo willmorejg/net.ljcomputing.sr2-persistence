@@ -23,7 +23,8 @@
   <net.ljcomputing.utility.version>utility-1.0.1</net.ljcomputing.utility.version>
   <net.ljcomputing.model.version>model-1.0.1</net.ljcomputing.model.version>
   <net.ljcomputing.persistence.version>persistence-1.0.3</net.ljcomputing.persistence.version>
-  <net.ljcomputing.sr2-domain.version>1.0.0-SNAPSHOT</net.ljcomputing.sr2-domain.version>
+  <net.ljcomputing.sr2-domain.version>sr2-domain-1.0.2</net.ljcomputing.sr2-domain.version>
+  
   <derby.version>10.12.1.1</derby.version>
   <commons-dbcp2.version>2.0.1</commons-dbcp2.version>
   <commons-lang3.version>3.4</commons-lang3.version>
@@ -33,6 +34,7 @@
   <!-- <local.net.ljcomputing.model.version>1.0.1-SNAPSHOT</local.net.ljcomputing.model.version> -->
   <!-- <local.net.ljcomputing.persistence.version>1.0.3-SNAPSHOT</local.net.ljcomputing.persistence.version> -->
   <!-- <local.net.ljcomputing.utility.version>1.0.1-SNAPSHOT</local.net.ljcomputing.utility.version> -->
+  <!-- <local.net.ljcomputing.sr2-domain.version>1.0.2-SNAPSHOT</local.net.ljcomputing.sr2-domain.version> -->
  </properties>
 
  <!-- Contact and License Information -->
@@ -123,10 +125,16 @@
   <!-- </dependency> -->
 
   <dependency>
-   <groupId>net.ljcomputing</groupId>
-   <artifactId>sr2-domain</artifactId>
-   <version>1.0.2-SNAPSHOT</version>
+   <groupId>com.github.willmorejg</groupId>
+   <artifactId>net.ljcomputing.sr2-domain</artifactId>
+   <version>${net.ljcomputing.sr2-domain.version}</version>
   </dependency>
+
+  <!-- <dependency> -->
+  <!-- <groupId>net.ljcomputing</groupId> -->
+  <!-- <artifactId>sr2-domain</artifactId> -->
+  <!-- <version>${local.net.ljcomputing.sr2-domain.version}</version> -->
+  <!-- </dependency> -->
 
  </dependencies>
 
